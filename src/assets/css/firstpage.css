@@ -1,0 +1,33 @@
+.first_page {
+    display: flex; /* Устанавливаем flex-контейнер */
+    justify-content: space-between; /* Прижимаем элементы к правому краю */
+    height: 100vh; /* Делаем контейнер высотой на весь экран */
+    background-color: #000;
+    align-items: center;
+    padding-left: 50px;
+}
+.image-container {
+    position: absolute;
+    z-index: 2;
+    width: 85%;
+    transform: translateX(30%);
+    height: 100vh;
+    overflow: hidden; /* Обрезаем лишнее содержимое за границами контейнера */
+    background-image: url('../img/WhatsApp Image 2024-06-29 at 22.06.50.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+    mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+}
+.first_page p {
+    color: white;
+    z-index: 3;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 600px;
+    height: 500px;
+}
