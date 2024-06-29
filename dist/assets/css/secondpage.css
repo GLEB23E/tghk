@@ -44,7 +44,6 @@
     width: 242px;
     height: 47px;
     border-radius: 20px;
-    margin-top: 40px;
     border: 2px solid #397DEF;
     background: #FFF;
     color: #397DEF;
@@ -54,6 +53,7 @@
     line-height: normal;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: center; /* Выравниваем содержимое по центру по вертикали */
+    margin-top: auto; /* Прижимаем кнопку к нижнему краю */
+    margin-bottom: 20px; /* Оставляем небольшой отступ снизу */
 }
