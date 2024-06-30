@@ -1,0 +1,85 @@
+.third_page {
+    display: flex; /* Устанавливаем flex-контейнер */
+    justify-content: space-between; /* Прижимаем элементы к правому краю */
+    height: 100vh; /* Делаем контейнер высотой на весь экран */
+    background-color: #000;
+    align-items: center;
+    padding-left: 50px;
+}
+.image-container2 {
+    position: absolute;
+    z-index: 2;
+    width: 85%;
+    transform: translateX(30%);
+    height: 100vh;
+    overflow: hidden; /* Обрезаем лишнее содержимое за границами контейнера */
+    background-image: url('../img/WhatsApp\ Image\ 2024-06-29\ at\ 21.56.03.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+    mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+}
+.modal {
+    width: 352px;
+    height: 507px;
+    border-radius: 30px;
+    border: 3px solid #397DEF;
+    background: #FFF;
+}
+.modal h1 {
+    margin-top: 15px;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 25px;
+    font-weight: 400;
+    line-height: normal;
+}
+.modal h2 {
+    color: #000;
+    font-size: 15px;
+    margin-left: 25px;
+    font-style: normal;
+    margin-top: 7px;
+    font-weight: 400;
+    line-height: normal;
+}
+.modal p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 39px;
+}
+input {
+    border-top: 0px solid #000;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+}
+.checker {
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    margin-top: 15px;
+}
+.circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+
+}
+.chexker p {
+    margin-left: 10px;
+}
+.modal button {
+    width: 240px;
+    height: 51px;
+    border-radius: 30px;
+    background: #28288A;
+    border: 0px solid #397DEF;
+    margin-left: 56px;
+    margin-top: 44px;
+}
