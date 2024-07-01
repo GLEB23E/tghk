@@ -1,19 +1,96 @@
 const modal = () => {
     const modal = document.getElementById('mymodal') 
-    const modal2 = document.getElementById('cartModal') 
-    const modal3 = document.getElementById('deliveryModal')
-    const modal4 = document.getElementById('paymentModal')
-    document.getElementById('modal').addEventListener('click', () => {
+    const open = document.getElementById('open')
+    const close = document.getElementById('close')
+    const f = document.getElementById('f')
+    const s = document.getElementById('s')
+    const t = document.getElementById('fo')
+    const fi = document.getElementById('fi')
+    const si = document.getElementById('si')
+    const e = document.getElementById('e')
+    const n = document.getElementById('n')
+    const ten = document.getElementById('ten')
+    const el = document.getElementById('el')
+    const tw = document.getElementById('tw')
+    const th = document.getElementById('th')
+    const fort = document.getElementById('fort')
+    const fifteen = document.getElementById('fifteen')
+    const sixteen = document.getElementById('sixteen')
+    const seventeen = document.getElementById('seventeen')
+    const eighteen = document.getElementById('eighteen')
+    const nineteen = document.getElementById('nineteen')
+    const twenty = document.getElementById('twenty')
+    const twenty1 = document.getElementById('twenty1')
+    open.addEventListener('click', () => {
         modal.style.display = 'block'
     })
-    document.getElementById('modal2').addEventListener('click', () => {
-        modal2.style.display = 'block'
+    close.addEventListener('click', () => {
+        modal.style.display = 'none'
     })
-    document.getElementById('delivery').addEventListener('click', () => {
-        modal3.style.display = 'block'
+    f.addEventListener('click', () => {
+        window.location.href = 'index2.html';
     })
-    document.getElementById('payment').addEventListener('click', () => {
-        modal4.style.display = 'block'
+    s.addEventListener('click', () => {
+        window.location.href = 'index3.html';
     })
+    t.addEventListener('click', () => {
+        window.location.href = 'index4.html';
+    })
+    fi.addEventListener('click', () => {
+        window.location.href = 'index5.html';
+    })
+    si.addEventListener('click', () => {
+        window.location.href = 'index6.html';
+    })
+    se.addEventListener('click', () => {
+        window.location.href = 'index7.html';
+    })
+    e.addEventListener('click', () => {
+        window.location.href = 'index8.html';
+    })
+    n.addEventListener('click', () => {
+        window.location.href = 'index9.html';
+    })
+    ten.addEventListener('click', () => {
+        window.location.href = 'index10.html';
+    })
+    el.addEventListener('click', () => {
+        window.location.href = 'index11.html';
+    })
+    tw.addEventListener('click', () => {
+        window.location.href = 'index12.html';
+    })
+    th.addEventListener('click', () => {
+        window.location.href = 'index13.html';
+    })
+    fort.addEventListener('click', () => {
+        window.location.href = 'index14.html';
+    })
+    fifteen.addEventListener('click', () => {
+        window.location.href = 'index15.html';
+    })
+    sixteen.addEventListener('click', () => {
+        window.location.href = 'index16.html';
+    })
+    seventeen.addEventListener('click', () => {
+        window.location.href = 'index17.html';
+    })
+    eighteen.addEventListener('click', () => {
+        window.location.href = 'index18.html';
+    })
+    nineteen.addEventListener('click', () => {
+        window.location.href = 'index19.html';
+    })
+    twenty.addEventListener('click', () => {
+        window.location.href = 'index20.html';
+    })
+    twenty1.addEventListener('click', () => {
+        window.location.href = 'index21.html';
+    })
+
+    
+    
+    
+    
 }
 export default modal

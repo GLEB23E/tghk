@@ -1,0 +1,64 @@
+.cima {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    width: 430px;
+    height: 100vh;
+    border: 3px solid #397DED;
+    z-index: 999999;
+    background-color: #fff;
+}
+.close {
+    position: absolute;
+    z-index: 99999;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 14px;
+    width: 54px;
+    height: 54px;
+}
+.head {
+    height: 102px;
+    width: 100%;
+    border-bottom: 3px solid #397DED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(90deg, #70B5DC 0%, #B2E3FE 100%);
+}
+.head h1 {
+    color: #000;
+    text-align: center;
+    -webkit-text-stroke: 1px #397DED;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* .bipo {
+    display: flex;
+    justify-content: column;
+} */
+.bipo p {
+    text-align: center;
+    margin-top: 15px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nease {
+    width: 100%;
+    height: 102px;
+    bottom: 0;
+    position: absolute;
+    border-top: 3px solid #397DED;
+    background: linear-gradient(90deg, #70B5DC 0%, #B2E3FE 100%);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}

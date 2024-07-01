@@ -1,0 +1,132 @@
+.content p {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Три столбца равной ширины */
+    justify-content: space-between; /* Расстояние между элементами сетки */
+    gap: 50px;
+    padding: 10px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.content li {
+    color: #FFF;
+    font-size: 15px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content img {
+    width: 338px;
+    height: 253px;
+    z-index: 99999;
+}
+.item h1 {
+    color: #FFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.item p {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.item li {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    justify-content: center; /* Center the grid within its container */
+    align-items: center; /* Align items in the center vertically */
+    gap: 20px;
+    padding: 50px;
+}
+
+.cart {
+    width: 272px;
+    height: 418px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pr {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.df {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+.con {
+    width: 1067px;
+    height: 436px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 5px solid #397DEF;
+    background: #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.df h1 {
+    color: #FFF;
+    font-size: 39px;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.df p {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 40px;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: underline;
+}
