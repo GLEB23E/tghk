@@ -1,0 +1,60 @@
+footer {
+    height: 310px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    background-color: #000;
+    margin-top: 40px;
+}
+.contacs {
+    margin-left: 50px;
+}
+.contacs h1 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.net {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.net img {
+    width: 56px;
+    height: 56px;
+}
+.net p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info h1 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+.info p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: normal;
+}
+.my-map {
+    width: 320px; /* Ширина блока */
+    height: 240px; /* Высота блока */
+    border: 1px solid #ccc; /* Пример границы для блока */
+    border-radius: 15px; /* Закругленные края */
+    overflow: hidden; /* Обеспечивает обрезку содержимого внутри закругленных углов */
+}

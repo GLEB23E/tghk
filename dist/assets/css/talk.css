@@ -1,0 +1,67 @@
+.talk {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #397DEF;
+}
+.talk h1 {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 800;
+    line-height: normal;
+}
+.talk h2 {
+    color: #FFF;
+    font-size: 25px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.943px; /* 135.771% */
+}
+.sminputs {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.sminputs input {
+    width: 320px;
+    height: 30px;
+    color: white;
+    border-top: 0px solid #000;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+    border-bottom: 1.21px solid white;
+    background-color: #397DEF; /* цвет фона */
+}
+.sminputs input::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; /* Установите нужный цвет */
+}
+.doping {
+    margin-top: 40px;
+    gap: 40px;
+    display: flex;
+}
+.wuz {
+    width: 473px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1.212px solid #FFF;
+    background: rgba(196, 196, 196, 0.00);
+}
+.wuz::placeholder {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.75);
+    top: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}

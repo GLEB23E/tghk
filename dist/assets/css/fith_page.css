@@ -1,0 +1,117 @@
+.fith_page {
+    display: flex; /* Устанавливаем flex-контейнер */
+    justify-content: end; /* Прижимаем элементы к правому краю */
+    height: 100vh; /* Делаем контейнер высотой на весь экран */
+    background-color: #000;
+    padding-left: 50px;
+    position: relative; /* Добавляем относительное позиционирование */
+}
+
+.image_container3 {
+    position: absolute;
+    z-index: 2;
+    width: 35%;
+    height: 50%;
+    overflow: hidden; /* Обрезаем лишнее содержимое за границами контейнера */
+    background-image: url('../img/WhatsApp\ Image\ 2024-06-29\ at\ 21.57.22.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+    mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+    top: 0; /* Прижимаем к верхнему краю */
+    right: 0; /* Прижимаем к правому краю */
+}
+
+.image_container4 {
+    position: absolute;
+    z-index: 2;
+    width: 35%;
+    height: 50%;
+    overflow: hidden; /* Обрезаем лишнее содержимое за границами контейнера */
+    background-image: url('../img/WhatsApp\ Image\ 2024-06-29\ at\ 22.8007.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+    mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.0) 100%);
+    bottom: 0; /* Прижимаем к нижнему краю */
+    left: 0; /* Прижимаем к левому краю */
+}
+.fith_page h1 {
+    position: absolute;
+    color: #FFF;
+    left: 0;
+    margin-left: 60px;
+    margin-top: 90px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.fith_page p {
+    position: absolute;
+    color: #FFF;
+    left: 0;
+    margin-left: 60px;
+    margin-top: 300px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.modals {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+.tmodal {
+    display: block;
+}
+.fmodal {
+    display: flex;
+}
+.content {
+    z-index: 999;
+    margin-left: 13px;
+    border-radius: 20px;
+    border: 2px solid #397DEF;
+    background: #FFF;
+    position: relative;
+    width: 309px;
+    height: 373px;
+}
+.fmodal img {
+    width: 44px;
+    position: relative;
+    z-index: 999;
+    height: 44px;
+}
+.content h1 {
+    color: #244583;
+    position: relative;
+    font-size: 20px;
+    z-index: 999;
+    margin-top: 25px;
+    margin-left: 0;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+}
+.content p {
+    color: #000;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 15px;
+    font-style: normal;
+    z-index: 999;
+    font-weight: 400;
+    line-height: normal;
+}
