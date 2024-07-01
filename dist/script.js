@@ -35,6 +35,10 @@ const modal = () => {
   const nineteen = document.getElementById('nineteen');
   const twenty = document.getElementById('twenty');
   const twenty1 = document.getElementById('twenty1');
+  const seventeen2 = document.getElementById('seventeen2');
+  const eighteen2 = document.getElementById('eighteen2');
+  const nineteen2 = document.getElementById('nineteen2');
+  const twenty2 = document.getElementById('twenty2');
   open.addEventListener('click', () => {
     modal.style.display = 'block';
   });
@@ -87,19 +91,31 @@ const modal = () => {
     window.location.href = 'index16.html';
   });
   seventeen.addEventListener('click', () => {
-    window.location.href = 'index17.html';
+    window.location.href = 'index21.html';
   });
   eighteen.addEventListener('click', () => {
-    window.location.href = 'index18.html';
-  });
-  nineteen.addEventListener('click', () => {
     window.location.href = 'index19.html';
   });
+  nineteen.addEventListener('click', () => {
+    window.location.href = 'index17.html';
+  });
   twenty.addEventListener('click', () => {
-    window.location.href = 'index20.html';
+    window.location.href = 'index18.html';
   });
   twenty1.addEventListener('click', () => {
-    window.location.href = 'index21.html';
+    window.location.href = 'index20.html';
+  });
+  seventeen2.addEventListener('click', () => {
+    window.location.href = 'index.html';
+  });
+  eighteen2.addEventListener('click', () => {
+    window.location.href = 'index19.html';
+  });
+  nineteen2.addEventListener('click', () => {
+    window.location.href = 'index17.html';
+  });
+  twenty2.addEventListener('click', () => {
+    window.location.href = 'index18.html';
   });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (modal);
