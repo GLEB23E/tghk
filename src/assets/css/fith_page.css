@@ -193,3 +193,45 @@
         padding-right: 0;
     }
 }
+@media (max-width: 425px) {
+    .search {
+        display: none;
+    }
+    .second_page {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(6, 420px);
+    }
+    tbody {
+        font-size: 5px;
+    }
+    .fith_page h1 {
+        z-index: 9999;
+        font-size: 15px;
+    }
+    .fith_page p {
+        z-index: 9999;
+        font-size: 13px;
+    }
+    .bigtextblock {
+        font-size: 15px;
+    }
+    .wuz {
+        width: 150px;
+        height: 100px;
+    }
+    .sminputs input {
+        width: 100px;
+    }
+    .wuz input::placeholder {
+        font-size: 1px;
+    }
+    .proekt  p {
+        font-size: 15px;
+    }
+    .my-map {
+        display: none;
+    }
+    .info {
+        display: none;
+    }
+}
