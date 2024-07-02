@@ -76,6 +76,14 @@
 .fmodal {
     display: flex;
 }
+.fmodal2 {
+    display: flex;
+    margin-top: 50px;
+}
+.fmodal3 {
+    margin-left: 40px;
+    display: block;
+}
 .content {
     z-index: 999;
     margin-left: 13px;
@@ -87,6 +95,18 @@
     height: 373px;
 }
 .fmodal img {
+    width: 44px;
+    position: relative;
+    z-index: 999;
+    height: 44px;
+}
+.fmodal2 img {
+    width: 44px;
+    position: relative;
+    z-index: 999;
+    height: 44px;
+}
+.fmodal3 img {
     width: 44px;
     position: relative;
     z-index: 999;
@@ -114,4 +134,62 @@
     z-index: 999;
     font-weight: 400;
     line-height: normal;
+}
+
+@media (max-width: 1370px) {
+    .tmodal {
+        display: block;
+    }
+    .fmodal {
+        margin-left: 0;
+        display: flex;
+        margin-top: 20px;
+    }
+    .fmodal2 {
+        margin-top: 20px;
+        margin-left: 0;
+        display: flex;
+    }
+    .fmodal3 {
+        margin-top: 0;
+        margin-top: 20px;
+        margin-left: 0;
+        display: flex;
+    }
+    .modals {
+        align-items: end;
+        justify-content: end;
+        display: grid;
+    }
+    .bigtextblock p {
+        margin-top: 190px;
+    }
+
+}
+@media (max-width: 768px) {
+    .second_page {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(3, 420px);
+    }
+    .modal {
+        z-index: 9999;
+    }
+    .modals {
+        display: block;
+        justify-content: start;
+        position: relative;
+        margin-top: 500px;
+    }
+    .bigtextblock p {
+        margin-top: 600px;
+    }
+    .wuz {
+        width: 302px;
+    }
+    .contacs {
+        margin-left: 15px;
+    }
+    .footer {
+        padding-right: 0;
+    }
 }
