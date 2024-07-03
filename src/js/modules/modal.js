@@ -25,6 +25,7 @@ const modal = () => {
     const eighteen2 = document.getElementById('eighteen2')
     const nineteen2 = document.getElementById('nineteen2')
     const twenty2 = document.getElementById('twenty2')
+    const nome = document.getElementById('home')
     open.addEventListener('click', () => {
         modal.style.display = 'block'
     })
@@ -103,7 +104,19 @@ const modal = () => {
     twenty2.addEventListener('click', () => {
         window.location.href = 'index18.html';
     })
+    nome.addEventListener('click', () => {
+        window.location.href = 'index.html';
+    })
 
+    
+    
+
+
+
+    
+
+    
+        
     
     
     

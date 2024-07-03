@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
     box-sizing: border-box;
     user-select: none;
@@ -53,4 +54,112 @@ header {
 .menu {
     width: 54px;
     height: 54px;
+}
+@media (max-width: 1370px) {
+    .tmodal {
+        display: block;
+    }
+    .fmodal {
+        margin-left: 0;
+        display: flex;
+        margin-top: 20px;
+    }
+    .fmodal2 {
+        margin-top: 20px;
+        margin-left: 0;
+        display: flex;
+    }
+    .fmodal3 {
+        margin-top: 0;
+        margin-top: 20px;
+        margin-left: 0;
+        display: flex;
+    }
+    .modals {
+        align-items: end;
+        justify-content: end;
+        display: grid;
+    }
+    .bigtextblock p {
+        margin-top: 190px;
+    }
+
+}
+@media (max-width: 768px) {
+    .second_page {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(3, 420px);
+    }
+    .modal {
+        z-index: 9999;
+    }
+    .modals {
+        display: block;
+        justify-content: start;
+        position: relative;
+        margin-top: 500px;
+    }
+    .bigtextblock p {
+        margin-top: 600px;
+    }
+    .wuz {
+        width: 302px;
+    }
+    .contacs {
+        margin-left: 15px;
+    }
+    .footer {
+        padding-right: 0;
+    }
+}
+@media (max-width: 425px) {
+    .search {
+        display: none;
+    }
+    .second_page {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(6, 420px);
+    }
+    tbody {
+        font-size: 5px;
+    }
+    .fith_page h1 {
+        z-index: 9999;
+        font-size: 15px;
+    }
+    .fith_page p {
+        z-index: 9999;
+        font-size: 13px;
+    }
+    .bigtextblock {
+        font-size: 15px;
+    }
+    .wuz {
+        width: 150px;
+        height: 100px;
+    }
+    .sminputs input {
+        width: 100px;
+    }
+    .wuz input::placeholder {
+        font-size: 1px;
+    }
+    .proekt  p {
+        font-size: 15px;
+    }
+    .my-map {
+        display: none;
+    }
+    .info {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .third_page {
+        padding-left: 20px;
+    }
+    .fith_page p {
+        font-size: 10px;
+    }
 }

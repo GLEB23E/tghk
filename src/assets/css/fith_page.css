@@ -235,3 +235,12 @@
         display: none;
     }
 }
+
+@media (max-width: 375px) {
+    .third_page {
+        padding-left: 20px;
+    }
+    .fith_page p {
+        font-size: 10px;
+    }
+}
